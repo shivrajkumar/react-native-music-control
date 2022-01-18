@@ -430,7 +430,7 @@ RCT_EXPORT_METHOD(observeAudioInterruptions:(BOOL) observe){
     }
     if (interruptionType == AVAudioSessionInterruptionTypeEnded &&
            interruptionOption == AVAudioSessionInterruptionOptionShouldResume) {
-        [self sendEvent:@"play"];
+//         [self sendEvent:@"play"];
     }
 }
 
